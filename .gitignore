@@ -1,0 +1,13 @@
+# dependencies
+node_modules/
+
+# build output
+/src/dist/
+
+# test outputs
+playwright-report/
+test-results/
+
+# Mac OS X
+.DS_Store
+**/.DS_Store
