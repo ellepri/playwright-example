@@ -10,10 +10,13 @@ using Playwright + TypeScript.
 # 1. Install dependencies
 $ npm install
 
-# 2. Start local server
+# 2. build TS
+$ npx tsc
+
+# 3. Start local server
 $ npx serve src -l 3000
 
-# 3. Run Playwright tests
+# 4. Run Playwright tests
 $ npx playwright test
 ```
 
