@@ -198,7 +198,7 @@ test('should see no error messages after correcting the form', async ({ page }) 
 
     await homePage.fillForm('Jane Doe', 'info@mail.com', '1234567890');
 
-    await expect(homePage.emailErrorMessage).toBeVisible();
     await expect(homePage.nameErrorMessage).toBeHidden();
+    await expect(homePage.emailErrorMessage).toBeHidden();
     await expect(homePage.phoneNrErrorMessage).toBeHidden();
 });
